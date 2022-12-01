@@ -1,0 +1,39 @@
+<head>
+    <link rel="stylesheet" href="pure.css">
+    <style>
+        .Container {
+            text-align: center;
+        }
+
+        .Container:before {
+            content: '';
+            height: 15%;
+            display: inline-block;
+        }
+
+        .centeredContent {
+            vertical-align: middle;
+            text-align: center;
+        }
+
+        .button-lel {
+            background:powderblue;
+        }
+        
+    </style>
+    <title>main page</title>
+</head>
+<body>
+    <!--mainpage.-->
+    <form role="search" method="get" id="searchform" class="searchform pure-form" action="https://www.google.com/search?q=">
+        <div class="Container" id="lel">
+            <div>
+                <img src="lit.png">
+            </div>
+            <div>
+                <input class="pure-input-2-3" style="background:powderblue; border: 2px teal;" placeholder="..." type="text" value="" name="q" id="s">
+                <button type="submit" class="pure-button button-lel">&#10141;</button>
+            </div>
+        </div>
+    </form>
+</body>
